@@ -23,7 +23,8 @@ func main() {
 	}
 
 	fmt.Println("Initial Sudoku puzzle:")
-	printBoard(board)
+	Table(board)
+	// printBoard(board)
 
 	if err := validateBoard(board); err != nil {
 		fmt.Printf("Error: %v\n", err)
@@ -32,7 +33,9 @@ func main() {
 
 	if solveSudoku(board) {
 		fmt.Println("\nSolved Sudoku:")
-		printBoard(board)
+		Table(board)
+		// printBoard(board)
+
 	} else {
 		fmt.Println("\nNo solution exists")
 	}
