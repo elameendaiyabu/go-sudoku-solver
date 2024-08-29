@@ -4,7 +4,7 @@ A sudoku solver built from scratch using next js.
 
 ---
 
-#### rules of the game
+## rules of the game
 
 - a 9x9 grid must be filled with numbers between 1-9
 - a number shouldnt be repeated in a row
@@ -14,18 +14,18 @@ A sudoku solver built from scratch using next js.
 - there a 9 subgrids on a board
 - a board should only have one unique solution
 
-#### goals of this project
+## goals of this project
 
 ==> Goal 1: represent the sudoku board (achieved)
 ==> Goal 2: create algorithm to solve the board (achieved - used backtracking)
 ==> Goal 3: create a tui using bubble tea (achieved)
 
-#### tech stack
+## tech stack
 
 ==> Golang
 ==> Bubble Tea
 
-#### quick pseudocode on achieving my goals
+## quick pseudocode on achieving my goals
 
 - use arrays to represent the board
 - cells with no number will be represented with 0
