@@ -1,6 +1,8 @@
 # go-sudoku-solver
 
-A sudoku solver built from scratch using next js.
+A sudoku solver built from scratch using go
+
+![[sudoku-solver.png]]
 
 ---
 
