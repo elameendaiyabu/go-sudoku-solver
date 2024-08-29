@@ -1,8 +1,8 @@
-# go-sudoku-solver
+# command-line go-sudoku-solver
 
-A sudoku solver built from scratch using go
+A command line sudoku solver built from scratch using go
 
-![[./sudoku-solver.png]]
+![sudoku solver](./sudoku-solver.png)
 
 ---
 
