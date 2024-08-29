@@ -2,7 +2,7 @@
 
 A sudoku solver built from scratch using go
 
-![[sudoku-solver.png]]
+![[./sudoku-solver.png]]
 
 ---
 
