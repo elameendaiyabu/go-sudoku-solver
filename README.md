@@ -6,6 +6,44 @@ A command line sudoku solver built from scratch using go
 
 ---
 
+## run locally
+
+### prerequisites
+
+- git
+- go
+
+### directions
+
+- clone project
+
+```git
+git clone https://github.com/elameendaiyabu/go-sudoku-solver.git
+```
+
+- cd into project
+
+```bash
+cd go-sudoku-solver
+```
+
+- install required go packages
+
+```go
+go mod tidy
+```
+
+- go run
+
+```go
+go run .
+```
+
+## tech stack
+
+- Golang
+- Bubble Tea
+
 ## rules of the game
 
 - a 9x9 grid must be filled with numbers between 1-9
@@ -22,12 +60,7 @@ A command line sudoku solver built from scratch using go
 - Goal 2: create algorithm to solve the board (achieved - used backtracking)
 - Goal 3: create a tui using bubble tea (achieved)
 
-## tech stack
-
-- Golang
-- Bubble Tea
-
-## quick pseudocode on achieving my goals
+## quick pseudocode
 
 - use arrays to represent the board
 - cells with no number will be represented with 0
