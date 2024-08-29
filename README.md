@@ -16,14 +16,14 @@ A sudoku solver built from scratch using next js.
 
 ## goals of this project
 
-==> Goal 1: represent the sudoku board (achieved)
-==> Goal 2: create algorithm to solve the board (achieved - used backtracking)
-==> Goal 3: create a tui using bubble tea (achieved)
+- Goal 1: represent the sudoku board (achieved)
+- Goal 2: create algorithm to solve the board (achieved - used backtracking)
+- Goal 3: create a tui using bubble tea (achieved)
 
 ## tech stack
 
-==> Golang
-==> Bubble Tea
+- Golang
+- Bubble Tea
 
 ## quick pseudocode on achieving my goals
 
